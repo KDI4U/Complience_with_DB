@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+.pytest_cache/
+.mypy_cache/
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Environment Variables & Secrets
+.env
+*.env
+!.env.example
+
+# Compiled Binaries, Executables & Large Build Artifacts (>100MB)
+epfoexe/
+esicexe/
+*.exe
+_internal/
+ms-playwright/
+dist/
+build/
+*.spec
+
+# Separate Projects & Downloads
+Supplementary Monthly Contributio/
+epfo_downloads_txt/
+
+# Spreadsheets, Data Dumps & Runtime Captchas
+*.xlsx
+*.xls
+*.csv
+!*.example.csv
+!*.example.xlsx
+data/
+**/data/
+**/data/**
+logs/
+**/logs/
+**/logs/**
+old_data/
+**/old_data/
+**/old_data/**
+Merge_data/
+**/Merge_data/
+**/Merge_data/**
+screenshots/
+**/screenshots/
+**/screenshots/**
+captcha/
+**/captcha/
+**/captcha/**
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
